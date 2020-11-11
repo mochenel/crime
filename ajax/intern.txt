@@ -1,0 +1,1 @@
+hello my name is freddy. i'm programmer intern at wbho. i mostly work with java and sql to read data from different files and finally generate birt report.

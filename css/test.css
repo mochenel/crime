@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  width: 1170px;
+  margin: auto;
+}
+
+header{
+  background: url("images/main2.png");
+  height: 100vh;
+  -webkit-background-size:cover;
+  background-position: center center;
+  width: 100%;
+  display: table;
+  font-family: Montserrat;
+}
+
+.nav{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  border-bottom: 1px solid rgba(255,255,255,0.8);
+}
+
+.logo{
+  letter-spacing: 1px;
+  float: left;
+  color: #3498DB;
+  font-size: 30px;
+  line-height: 80px;
+  padding: 0 6em;
+  font-family: cursive;
+}
+
+.menu{
+  float: right;
+  line-height: 50px;
+  margin: 0 6em;
+}
+.menu ul{
+  list-style: none;
+}
+.menu ul li{
+  display: inline-block;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 0 20px;
+}
+.menu li a:hover{
+  background: #00F0F8FF;
+  color: #333;
+}
+
+ul li:nth-child(2) a{
+  color: #009f8b;
+  border: 1px solid #009f8b;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+ul li:nth-child(1) a{
+  color: #61B3E7;
+  border: 1px solid #61B3E7;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.welcome-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.welcome-text h1{
+  color: #0892D0;
+  font-size: 46px;
+  font-weight: lighter;
+}
+.welcome-text p{
+  color: #0892D0;
+  font-size: 24px;
+  font-weight: lighter;
+}
+.welcome-text button{
+  color: #fff;
+  background: #009f8b;
+  padding: 18px 38px;
+  border: none;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+@media and screen (max-width: 1373px){
+  .welcome-text button{
+  color: #fff;
+  background: red;
+  display: none;
+  padding: 18px 38px;
+  border: none;
+  font-size: 14px;
+  margin-top: 40px;
+}
+}

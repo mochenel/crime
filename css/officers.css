@@ -1,0 +1,134 @@
+
+*{
+
+  margin: 0px;
+
+  padding: 0;
+
+  font-family: sans-serif;
+
+}
+
+
+
+#container{
+	background: url('main2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+/* navbar and menu */
+
+.nav_bar{
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-height: 100px;
+  background: black;
+  opacity: 0.7;
+  z-index: 100px;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  display: default;
+}
+
+.nav{
+  height: 50px;
+  
+  color: white;
+  width: 100%;
+  position: fixed;
+}
+
+.menu{
+  margin-top: 10px;
+  margin-left: 20px;
+  position: absolute;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+.close{
+  
+  
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: red;
+
+}
+
+.close:hover{
+  color: white;
+}
+
+#sidebar{
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: black;
+  position: relative;
+
+  
+}
+
+#sidebar li {
+  
+  color: white;
+  background: black;
+  margin-top: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 1px solid silver;
+  text-align: center;
+  padding:10px 0;
+
+}
+
+#sidebar li:hover{
+  box-shadow: 0 0 10px lime;
+}
+
+#sidebar li a{
+  
+  color: white;
+  background: black;
+  text-decoration: none;
+}
+
+
+/* responsive for nav*/
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  #sidebar{
+      width: 50%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+  #sidebar{
+      width: 100%;
+    }
+}
+
+
+
+/* end responsive for nav*/
+
+
+
+
+/* end navbar and menu*/
+
+.header_{
+  width: 100%;
+  text-align: center;
+}

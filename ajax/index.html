@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device-width, initail-scale = 1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title></title>
+</head>
+<body>
+<button id="btn">get intern</button><br><br>
+<div id="container"></div>
+<script type="text/javascript">
+	var btn  = document.getElementById('btn');
+	function loadData() {
+		var xmlhttp = new XMLHttpRequest();
+		console.log(xmlhttp);
+		xmlhttp.open('GET','intern.txt',true);
+		xmlhttp.onload = function(){
+			if(this.status == 200){
+				var response = this.responseText();
+				document.getElementById('container').innerHTML = response;
+			}
+		}
+		xmlhttp.send();
+	}
+	btn.addEventListener('click',loadData);
+
+</script>
+</body>
+</html>

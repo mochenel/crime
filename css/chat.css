@@ -1,0 +1,47 @@
+/*body{
+background: cover;
+background: url("images/main2.png");
+padding: 50px 0px;
+}
+a{
+	margin-left: 500px;
+	font-size: 150%;
+	text-decoration:none;
+}input{
+	width: 200px;
+	height: 35px;
+	border-radius: 10px;
+}
+#sender{
+	margin-left: 500px;
+	border-width: all;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding-left:15px;
+	background-color: white;
+	font-size: 130%;
+}
+#receiver{
+	padding-left:15px; 
+	border-radius: 10px;
+	margin-right: 400px;
+	border-width: all;
+	margin-top: 20px;
+	background-color: white;
+	font-size: 130%;
+
+}#field{
+	width:1150px;
+padding-left: 10px;
+border-radius: 20px;
+font-size: 120%;
+
+}
+
+button{
+	margin-left: 0px;
+	margin-top: 20px;
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+}
