@@ -68,6 +68,6 @@
 
   
 
-**All users must login to perform all those operations and to login they must register their account. **
+**All users must login to perform all those operations and to login they must register their account.**
 
  
